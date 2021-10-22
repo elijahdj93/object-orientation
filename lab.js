@@ -5,7 +5,10 @@
 */
 
 //Code here
-
+const me = {
+  "name": "Elijah Jackson",
+  "age": 28
+}
 
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
@@ -16,21 +19,26 @@
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+ const dog = {
+   "name": "Lucky",
+   "color": "white",
+   "age": 2,
+   "goodBoy": true
+ }
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-
+console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-
+console.log(dog["color"])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -40,14 +48,22 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  "band": "Linkin Park",
+  "food": "Steak",
+  "person": "Jesus",
+  "book": "Bible",
+  "movie": "John Wick",
+  "holiday": "Christmas"
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
 //Code here
-
+favoriteThings.car = "Lambo"
+favoriteThings.show = "That 70's Show"
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -55,7 +71,9 @@
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
+console.log(favoriteThings)
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -73,7 +91,7 @@ var carDetails = {
 */
 
 //Code Here
-
+const  {color, make, model, year} = carDetails
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
@@ -86,11 +104,11 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
-  
+  const {firstName, lastName, title} = obj
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
-}
+} 
 
 
 
